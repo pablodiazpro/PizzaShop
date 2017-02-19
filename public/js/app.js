@@ -3,7 +3,7 @@
  */
 (function() {
     "use strict";
-
+    var x = 0;
     var module = angular.module("pizzaApp", ["ngRoute"]);
 
     module.config(function ($routeProvider) {
